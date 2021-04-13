@@ -1,0 +1,39 @@
+import datetime
+name = input('ENTER YOUR NAME HERE:- ')
+
+hour = int(datetime.datetime.now().hour)
+if hour>=0 and hour<12:
+ print(f'GOOD MORNING {name}')
+elif hour>=12 and hour<17:
+ print(f'GOOD AFTERNOON {name}')
+else:
+ print(f'GOOD EVENING {name}')
+ 
+
+passward = int(input('ENTER THE PASSWARD TO ACCESS THE SYSTEM:-' ))
+if passward==7115:
+	print('SYSTEM ACCESS')
+	pass
+if passward<7115:
+		print('SYSTEM DENIED')
+		
+		print('DELETING ALL THE FILES OF THE SYSTEM...')
+		
+		print('SENDING ALL THE FILES TO THE IP ADDRESS...')
+	
+		print(10 * 'IOIOIIIOOOOOIIIIOOIIOIOOOOOOIIIIIIIOIOIOIOIOIOIOIOIOIOIIOIOIOOOOOIIIIIIIOIOIOOIIOIOIOIOIIOIOIOOOOOIOIOIIOOOIOIIOIO')
+		
+		exit()
+		
+if passward>7115:
+		print('SYSTEM DENIED')
+		
+		print('DELETING ALL THE FILES OF THE SYSTEM...')
+		
+		print('SENDING ALL THE FILES TO THE IP ADDRESS...')
+	
+		print(10 * 'IOIOIIIOOOOOIIIIOOIIOIOOOOOOIIIIIIIOIOIOIOIOIOIOIOIOIOIIOIOIOOOOOIIIIIIIOIOIOOIIOIOIOIOIIOIOIOOOOOIOIOIIOOOIOIIOIO')
+		
+		exit()
+
+print('''WELCOME TO THE SYSTEM CAPTAIN''')
